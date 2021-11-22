@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+    
+}
+.conteiner{
+    background-color:#130377 ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    
+}
+.border{
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+#left{
+   margin-left: 50%;
+}
+#world{
+    height: 50%;
+    width: 100%;
+    padding-top: 15%;
+}
+#search{
+    width: 100%;
+    border: 1px solid white;
+    height: 4%; 
+}
+#search p {
+    color: gray;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60%;
+}
+#nine{
+    height: 156%;
+    width: 96%;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mumbai{
+    height: 33.2%;
+    width: 33%;
+    border: 1px solid white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+}
+.mumbai:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+.mumbai h4 {
+    text-align: center;
+
+}
+.mumbai p {
+    font-size: 60%;
+    text-align: center;
+}
+.sizepicture{
+    height: 70%;
+    width: 100%;
+    margin-top: %;
+}
+#fixed{
+    position: fixed;
+    margin: 0px;
+}
+.textonimg{
+    position: relative;
+    width:100%;
+    margin: 0 auto;
+}
+.textonimg img{
+    width: 100%;
+}
+.centered
+{
+    color: white;
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    font-size: 150%;
+    opacity: 0.7;
+}
+@media only screen and (max-width:1023px) and (min-width: 758px){
+    body{
+        margin: 0px;
+        background-color: gray ;
+    }
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .border{
+        border: 1px solid;
+        background-color: #130377;;
+
+    }
+    #world{
+        height: 35%;
+        padding-top: 25%;
+    }
+    #left{
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 47.3%;
+        margin-right: 25%;
+        width: 50%;
+        height: auto;
+        
+    }
+    .centered{
+        color: blue;
+        background-color: silver;
+        position: absolute;
+        top:0%;
+        padding-top: 5%;
+        width: 100%;
+        height: 10%;
+        font-size: 120%;
+        opacity: 1.0;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+    #nine{
+        height: 50%;
+        width: 100%;
+        border: 1px solid white;
+        display: flex;
+       flex-wrap: wrap;
+       border-bottom: none;
+        
+    }
+    .mumbai{
+        height: 69.3%;
+        width: 32.6%;
+        border: 1px solid white; 
+        font-size: 110%;
+    }
+    .mumbai h4{
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    .mumbai p{
+        font-size: 87%;
+        margin-bottom: 0px;
+    }
+    .mumbai:hover{
+        background-color: white;
+        color: blue;
+        cursor: pointer;
+    }
+    .sizepicture{
+        height: 40%;
+        width: 95%;
+    }
+    #fixed{
+        position: absolute;
+    }
+    #search{
+        width: 100%;
+        border: 1px solid white;
+        height: 4%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+}
